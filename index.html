@@ -15,7 +15,7 @@
   <div id="pinwheelPage">
     <button onclick="retrieveOrGeneratePin()">Obter PINWHEEL</button>
     <p><a href="https://nubank.com.br/cobrar/tezyu/65ac71d4-2e7b-41ee-9fc0-362977b08070" target="_blank">REALIZAR PIX</a></p>
-    <p>Realize o PIX de R$20,00 e envie o comprovante de pagamento para o número +55 (48) 98433-0340 para ter acesso à nova página.</p>
+    <p>Clique em Obter PINWHEEL para receber o seu código exclusivo.Após isso,realize o PIX de R$20,00 clicando no link abaixo e envie o comprovante de pagamento para o número +55 (48) 98433-0340 para ter acesso à nova página.Informaremos quando você obtiver acesso, e então, atualize a página até aparecer novas seções.</p>
   </div>
 
   <div id="unlockPage" class="hidden">
@@ -25,10 +25,11 @@
       <li><a href="https://youtube.com/@void33.?feature=shared" target="_blank">Canal</a></li>
       <li><a href="https://steinshop.com.br/" target="_blank">Loja</a></li>
     </ul>
-    <p>Parabéns! Você agora tem acesso à outra página.</p>
+    <p>Parabéns! Agora você tem acesso à essa página até o dia 29!.</p>
     <button onclick="like()">Curtir <span id="likeCount">0</span></button>
     <div id="messageSection">
-      <h2>Enviar Mensagem</h2>
+      <h3>Envie o código do amigo que lhe indicou o site!</h3>
+      <h3>ALERTA:SE VOCÊ COLOCAR O SEU PRÓPRIO CÓDIGO, VOCÊ NÃO RECEBERÁ A RECOMPENSA,  E SE VOCÊ ENVIAR UMA SEGUNDA MENSAGEM, A PRIMEIRA SERÁ AUTOMATICAMENTE EXCLUIDA./h3>
       <textarea id="messageInput" rows="4" cols="50"></textarea>
       <button onclick="sendMessage()">Enviar</button>
     </div>
@@ -140,7 +141,7 @@
       let foundMessagesDiv = document.getElementById('foundMessages');
       foundMessagesDiv.innerHTML = messages.length > 0 ?
         `<h3>Mensagens Encontradas</h3>${messages.join('')}` :
-        `<h3>Nenhuma mensagem encontrada com a palavra-chave</h3>`;
+        `<h3>Nenhuma mensagem encontrada. Verifique as palavras e o espaçamento.</h3>`;
     }
   </script>
 
